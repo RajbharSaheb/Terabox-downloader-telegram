@@ -9,10 +9,10 @@ async function main() {
   bot.start(async (ctx) => {
     try {
       ctx.reply(
-        `Hi ${ctx.message.from.first_name},\n\nI can Download Files from Terabox.\n\nMade with ❤️ by @ultroidxTeam\n\nSend any terabox link to download.`,
+        `Hi ${ctx.message.from.first_name},\n\nI can Download Files from Terabox.\n\nMade with ❤️ by @rajbharsaheb\n\nSend any terabox link to download.`,
         Markup.inlineKeyboard([
-          Markup.button.url(" Channel", "https://t.me/ultroid_official"),
-          Markup.button.url("Report bug", "https://t.me/ultroidxTeam"),
+          Markup.button.url(" Channel", "https://t.me/movies_island8"),
+          Markup.button.url("Report bug", "https://t.me/rajbharmvsupport"),
         ]),
       );
     } catch (e) {
@@ -25,7 +25,10 @@ async function main() {
       const messageText = ctx.message.text;
       if (
         messageText.includes("1024terabox.com") ||
+        messageText.includes("teraboxapp.com") ||
+        messageText.includes("freeterabox.com") ||
         messageText.includes("terabox.app")
+
       ) {
         //const parts = messageText.split("/");
         //const linkID = parts[parts.length - 1];
