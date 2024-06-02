@@ -11,8 +11,8 @@ async function main() {
       ctx.reply(
         `Hi ${ctx.message.from.first_name},\n\nI can Download Files from Terabox.\n\nMade with ❤️ by @ultroidxTeam\n\nSend any terabox link to download.`,
         Markup.inlineKeyboard([
-          Markup.button.url(" Channel", "https://t.me/ultroid_official"),
-          Markup.button.url("Report bug", "https://t.me/ultroidxTeam"),
+          Markup.button.url(" Channel", "https://t.me/movies_island8"),
+          Markup.button.url("Report bug", "https://t.me/rajbharmvsupport"),
         ]),
       );
     } catch (e) {
