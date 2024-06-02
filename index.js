@@ -24,8 +24,9 @@ async function main() {
     if (ctx.message && ctx.message.text) {
       const messageText = ctx.message.text;
       if (
-        messageText.includes("1024terabox.com") ||
-        messageText.includes("terabox.app")
+        messageText.includes("teraboxapp.com") ||
+        messageText.includes("freeterabox.com") ||
+        messageText.includes("1024terabox.com")
       ) {
         //const parts = messageText.split("/");
         //const linkID = parts[parts.length - 1];
